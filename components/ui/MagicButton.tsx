@@ -4,7 +4,7 @@ interface Props {
   title: string;
   icon: ReactNode;
   position: "left" | "right";
-  classNames: string;
+  classNames?: string;
 }
 
 export const MagicButton: FC<Props> = ({ title, icon, position, onClick, classNames }) => (
