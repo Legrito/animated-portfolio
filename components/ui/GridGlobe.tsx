@@ -394,7 +394,7 @@ export function GridGlobe() {
   ];
 
   return (
-    <div className="absolute flex items-center justify-center -bottom-20 -right-4 md:-bottom-2 md:-right-20 z-0">
+    <div className="absolute flex items-center justify-center min-w-80 -bottom-24 -right-4 md:-right-20 z-0">
       <div className="max-w-7xl mx-auto w-full relative px-4">
         <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none" />
         <div className="relative w-full h-72 md:h-full z-10">
