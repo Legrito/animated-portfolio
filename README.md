@@ -20,6 +20,29 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Docker Setup
+
+To run this project using Docker, ensure you have Docker installed. You can follow the installation instructions on the official [Docker website](https://docs.docker.com/get-docker/).
+
+### Building the Docker Image
+
+To build the Docker image for your Next.js project, run the following command:
+
+````bash
+docker build -t nextjs-app .
+
+## Running the Docker Container
+
+After building the image, run the following command to start the container:
+
+```bash
+docker run -p 3000:3000 animated-portfolio
+
+The application will be accessible at http://localhost:3000.
+
+If you make any changes to the code, you'll need to rebuild the Docker image and relaunch the container.
+
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -34,3 +57,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+````
