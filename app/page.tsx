@@ -1,3 +1,4 @@
+import { Process } from "@/components/Process";
 import { Clients } from "@/components/Clients";
 import { Experience } from "@/components/Experience";
 import { Grid } from "@/components/Grid";
@@ -5,7 +6,6 @@ import { Hero } from "@/components/Hero";
 import { RecentProjects } from "@/components/RecentProjects";
 import { FloatingNavbar } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
-import { FaHome, FaUser } from "react-icons/fa";
 
 // const navItems = [
 //   {
@@ -30,6 +30,7 @@ export default function Home() {
         <RecentProjects />
         <Clients />
         <Experience />
+        <Process />
       </div>
     </main>
   );

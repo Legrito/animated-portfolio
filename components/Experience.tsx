@@ -6,7 +6,6 @@ export const Experience = () => {
     <div className="py-20" id="testimonials">
       <h1 className="heading">
         My <span className="text-purple">work experience</span>
-        <Button>hello</Button>
       </h1>
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {workExperience.map(({ id, thumbnail, title, desc }) => (
