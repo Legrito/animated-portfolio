@@ -1,7 +1,7 @@
-"use client";
-import { projects } from "@/data";
-import { PinContainer } from "./ui/3d-pin";
-import { FaLocationArrow } from "react-icons/fa6";
+'use client';
+import { projects } from '@/data';
+import { PinContainer } from './ui/3d-pin';
+import { FaLocationArrow } from 'react-icons/fa6';
 
 export const RecentProjects = () => {
   return (
