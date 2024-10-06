@@ -30,6 +30,7 @@ To build the Docker image for your Next.js project, run the following command:
 
 ````bash
 docker build -t nextjs-app .
+````
 
 ## Running the Docker Container
 
@@ -37,6 +38,7 @@ After building the image, run the following command to start the container:
 
 ```bash
 docker run -p 3000:3000 animated-portfolio
+````
 
 The application will be accessible at http://localhost:3000.
 
